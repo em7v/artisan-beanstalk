@@ -3,6 +3,8 @@
 The component provides an artisan command for Beanstalk. With which you can run worker for all queues that have the format subject.queue. 
 
 ### Install
+```composer require friday14/artisan-beanstalk ~1.0```
+
 Add the ServiceProvider to the providers array in config/app.php
 
 ```php
