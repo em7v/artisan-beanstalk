@@ -1,0 +1,19 @@
+{
+  "name": "friday14/Beanstalk",
+    "description": "Artisan command for beanstalk",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Evgeniy Marthenov",
+      "email": "evgeniy.marthenov@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Friday14\\Beanstalk\\": "/src"
+    }
+  }
+}
