@@ -1,5 +1,5 @@
 {
-  "name": "friday14/beanstalk",
+  "name": "friday14/artisan-beanstalk",
     "description": "Artisan command for beanstalk",
   "type": "library",
   "authors": [
