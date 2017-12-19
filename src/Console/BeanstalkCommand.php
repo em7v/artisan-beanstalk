@@ -21,10 +21,10 @@ class BeanstalkCommand extends WorkCommand
     /**
      * Create a new command instance.
      *
-     * @param BeanstalkWorker $worker
      */
-    public function __construct(BeanstalkWorker $worker)
+    public function __construct()
     {
+        $worker = app('queue.beanstalk.worker');
         parent::__construct($worker);
     }
 
